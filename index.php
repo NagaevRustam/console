@@ -6,7 +6,6 @@ echo "Введите число" . PHP_EOL;
 $a = trim(fgets(STDIN));
 $b = trim(fgets(STDIN));
 
-
 if (ctype_digit($a)) {
     if (ctype_digit($b) ) {
         if ($b != 0 && ctype_digit($a)) {
